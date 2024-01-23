@@ -12,7 +12,7 @@ I think from what I have seen online, I should use react.js and try to get famil
 
 # The Brainstorm 
 
- 
+ ![image](https://github.com/PeterGQ/SpaceTourism/assets/93812183/c9bca2e6-3927-47de-b660-333dbb06e672)
 
 # The Trial and Error 
 
