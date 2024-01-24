@@ -24,9 +24,19 @@ My prior knowledge in C++/C/Python transferred over very well to react.js. Nothi
 
 I started off with the landing page and since there are no photos of a space tourism station/ship, I decided to resort to generative AI. For this case I used adobe’s firefly art generator. I was able to get decent photos without paying a penny. 
 
-I then created the shopping cart and the logic for adding the price total 
+I then created the shopping cart and the logic for adding the price total.
 
-I used some inspiration from expedia to see how a prrofessional website was done and then decided to put my own spin on it with the color theme and layout. 
+I used some inspiration from expedia to see how a professional website was done and then decided to put my own spin on it. 
+
+I added more content to the landing page but it seems to have messed up the resizing of the site. 
+
+The site seems to look weird on different devices, probably due to me not fully understanding react/css and the resizing of pages.
+
+Overall looks good on my screen.
+
+I used netlify because of its free hosting capabilities.
 
 # The Results 
-petergq-spacetours.netlify.com
+The website looks best on desktop but if it still looks weird/uneven then i suggest zooming in/out oof the page to get better results while i try and resolve the issue.
+
+https://petergq-spacetours.netlify.com
