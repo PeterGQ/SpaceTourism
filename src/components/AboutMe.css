@@ -1,0 +1,17 @@
+.AboutMe{
+    width: 500px;
+    height: 250px;
+    margin-top: 300px;
+    position: relative;
+    margin-left: 700px;
+    background-color: rgb(59, 58, 58);
+    border-radius: 25px;
+    text-align: center;
+}
+.AboutMe p{
+    bottom: 40px !important;
+    margin-left: 90px;
+    width: 300px;
+    position: absolute;
+    display: flex;
+}

@@ -1,0 +1,138 @@
+
+.cart {
+    margin-top:200px;
+    margin-right:270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .cart h1{
+    margin-right:80px;
+    font-size: 40px;
+  }
+  .cart .products{
+    display:block;
+    float:left;
+    margin-right:-900px;
+    width:300px; /* adjust */
+    height:50px; /* adjust */
+    padding: 5px; /* adjust */
+  }
+
+  .cart .products h1{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .cartItem {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    background-color: rgb(248, 243, 243);
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(117, 116, 116, 0.863);
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .cartItem img {
+    height: 150px;
+    width: 150px;
+    border-radius: 0px;
+  }
+  
+  .cartItem .description {
+    border-top: 1px solid black;
+    position: relative;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(44, 43, 43);
+    margin: 10px;
+    border-bottom: 1px solid black;
+  }
+  .cartItem .description h5{
+    position: relative;
+    text-align: left;
+    right: 156px;
+    bottom:20px;
+    color: white;
+  }
+  .countHandler input, h6{
+    display: inline-block;
+    margin: 5px;
+  }
+  .countHandler input {
+    width: 20px;
+    text-align: center;
+    font-weight: bolder;
+    border: none;
+  }
+  .payment {
+    border-style: double;
+    border-color: rgb(54, 54, 53);
+    border-width: 1px;
+    border-radius: 8px;
+    margin: 10px;
+    width: 420px;
+    height: 120px;
+  }
+  .payment button{
+    width: 120px;
+    height: 120px;
+    
+  }
+  .checkout {
+    position: relative;
+    margin-top:700px;
+    margin-right:800px;
+    width: 430px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: left;
+    
+  }
+  .checkout h3{
+    margin-top:30px !important;
+    margin-left:10px !important;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+  }
+  .checkout h5{
+    border-top: 1px solid rgb(189, 184, 184); 
+    margin-left:10px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .checkout p{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-left:10px
+  }
+  .checkout h6{
+    color: green;
+    margin-left:10px;
+  }
+  /*.checkout p{
+    position: relative;
+    right: -720px;
+    width: 150px;
+    font-weight: bolder;
+    text-align: left;
+  }*/
+  h1{
+    font-size: 15px;
+    color: white;
+  }

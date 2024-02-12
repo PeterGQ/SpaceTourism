@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.slide{
+    margin-left: 600px;
+    margin-top: 10px;
+    background-color: black;
+}
+.sliders{
+    width: 650px;
+    height: 550px;
+    display: block;
+    border-radius: 20px;
+    margin-left: 50px;
+  }
+.sliderBttn{
+    all: unset;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.sliderBttn > *{
+    stroke: white;
+    fill: black;
+    width: 2rem;
+    height: 2rem;
+}
